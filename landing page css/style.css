@@ -1,0 +1,114 @@
+body{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+/* TEXTOS */
+
+.texto-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 593px;
+    height: 352px;
+    left: 357px;
+    top: 278px;
+}
+
+.texto-inicial h1{
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color: #F6F6F6;
+}
+
+.texto-inicial strong{
+    color: #22D4FD
+}
+
+.texto-inicial p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F6F6F6;
+    width: 593px;
+    height: 144px;
+}
+
+/* BOTÕES */
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 584px;
+    height: 72px;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    text-transform: uppercase;
+}
+
+.botao-instagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    width: 280px;
+    height: 64px;
+    background: #22D4FD;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.botao-github{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    width: 280px;
+    height: 64px;
+    background: #22D4FD;
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+
+}
+
+/* IMAGEM */
+
+.dev-foto img{
+    position: absolute;
+    width: 488px;
+    height: 550px;
+    left: 1030px;
+    top: 235px;
+}
